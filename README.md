@@ -1,4 +1,6 @@
 # PZero F3 dataset
+[![DOI](https://zenodo.org/badge/942090951.svg)](https://doi.org/10.5281/zenodo.21792099)
+
 
 PZero project files and well-conversion scripts for the F3 North Sea dataset.
 The final9 project includes geological interpretations, surfaces, four wells
