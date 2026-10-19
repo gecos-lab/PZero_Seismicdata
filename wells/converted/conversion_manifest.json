@@ -1,11 +1,9 @@
 {
-  "generated_utc": "2026-10-19T10:20:32.655886+00:00",
-  "converter_sha256": "31a353769a926738f8c3cceefa6f8268617eda8c07cc3990aaf0d5e34d3c76db",
+  "generated_utc": "2026-10-19T10:51:03.504667+00:00",
+  "converter_sha256": "220badacdffc668727263cc0c2b1ee0ab553f5f7bac9bc1c62cd544386a9fdbc",
   "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
   "vtk_version": "9.3.1",
   "project_frame": {
-    "project_file": "final7.p0",
-    "revision": "rev_2026-09-22-10-42-08-b52783e8",
     "seismic_uid": "1713b3c0-e158-4bc6-8f4c-3473bb0ea683",
     "seismic_name": "Dutch Government_F3_entire_8bit seismic",
     "seismic_metadata": {
@@ -75,9 +73,7 @@
       "vertical_units": "ms",
       "xy_units": "m",
       "z_positive": "up"
-    },
-    "pointer_sha256": "8a8d894b2ea954c58e20be9970655ca53f6d4ee92f5a78dbc258124c7c54322e",
-    "sidecar_sha256": "bc4682d4f538dd7e1cd31bb0d6bb915a2d89c1d78e9cb74ba78a253a4c652705"
+    }
   },
   "source_files": [
     {
@@ -166,7 +162,6 @@
   "extrapolation": "none; trajectory limited to shared track/model MD coverage",
   "sampling": "union of model knots, track knots, marker MDs, endpoints, regular MD stations",
   "scope": "well trajectories and stratigraphic markers; original geophysical log curves are not exported",
-  "project_revision_modified": false,
   "summary": [
     {
       "well": "F02-1",
@@ -245,8 +240,8 @@
     },
     {
       "file": "F02-1_coordinate_metadata.json",
-      "sha256": "ab22b8d56041e0fd42678fa213b097a6e917dbd5225678fb8abb2d3a3f565815",
-      "bytes": 2946
+      "sha256": "25c66928bd2f5f8c27ee0ba2072b33684098690367dae4ac908acf7f937dc1d1",
+      "bytes": 2876
     },
     {
       "file": "F02-1_markers.csv",
@@ -255,13 +250,13 @@
     },
     {
       "file": "F02-1_markers.vtp",
-      "sha256": "07dd3efdc3a5459f72a5ef9e2cad763d642f061add98a40ff3de1c8b440eca96",
-      "bytes": 12050
+      "sha256": "e4b9e998601e717f9e72cc924913a3d32ef967698ce3d32119f72d2d921f666d",
+      "bytes": 11838
     },
     {
       "file": "F02-1_pzero_well.xlsx",
-      "sha256": "6bfd5bb0d244eed9b63135ca7257005d1f3e75bfee05d0066983003b25f6f9be",
-      "bytes": 270641
+      "sha256": "d901c591357bdfc0b87c9b4e2e42ff436adb73b728f771000a6fafdd97847311",
+      "bytes": 270605
     },
     {
       "file": "F02-1_trajectory.csv",
@@ -270,13 +265,13 @@
     },
     {
       "file": "F02-1_trajectory.vtp",
-      "sha256": "1ac4b3b759e938e3158568321d971b3647bfd501ce2cd151cbd614bd7b82e5c4",
-      "bytes": 591254
+      "sha256": "ab373fc74d5a11e41afebc00cb44e842da446be5582e1c3645bbd4c20e665264",
+      "bytes": 591042
     },
     {
       "file": "F03-2_coordinate_metadata.json",
-      "sha256": "1e77f09cf4ef5ebf51825d1c75d626eb68d94cb5abfb8a4459e6c71da9ff8a56",
-      "bytes": 2946
+      "sha256": "8581b69b72c80d8c78dec1ddee7c4bb6ee01a5711103a0c991bf4f6614f0a3dc",
+      "bytes": 2876
     },
     {
       "file": "F03-2_markers.csv",
@@ -285,13 +280,13 @@
     },
     {
       "file": "F03-2_markers.vtp",
-      "sha256": "79b18da2a7f5360150acc50f53bc4315cf4bb5d7614f6249d1a138ffa5ef6a55",
-      "bytes": 11929
+      "sha256": "cd59c0b7da3a6ac2149b33153f433947c6d7be752cdde43be1bd7f1a324f84c1",
+      "bytes": 11717
     },
     {
       "file": "F03-2_pzero_well.xlsx",
-      "sha256": "71c55e01120c72b83517f46f584a3992fac32701702e72b3bfddb56fef7c65c0",
-      "bytes": 497765
+      "sha256": "43f061d1eb4d96fef5d84cf958bd69ba525721669b62a71c1e09b0bcaafcc5be",
+      "bytes": 497728
     },
     {
       "file": "F03-2_trajectory.csv",
@@ -300,13 +295,13 @@
     },
     {
       "file": "F03-2_trajectory.vtp",
-      "sha256": "24ede612bf42faae4322b870fa33a678d2a435bfb773e50f1d7d1191cae83a66",
-      "bytes": 1109556
+      "sha256": "c5fd0b7c589da7a2bebf70249060da222b4958b2783b2ca3127779df295b5803",
+      "bytes": 1109344
     },
     {
       "file": "F03-4_coordinate_metadata.json",
-      "sha256": "bebbaf6a44c87e4e754583144608cd3a97d62aa9ee20bb5c306853c92ce92a13",
-      "bytes": 2946
+      "sha256": "348018f0168880c7a2e2d6bcab09e67713c6e0a31ccd4e6c011ac0a0550a72eb",
+      "bytes": 2876
     },
     {
       "file": "F03-4_markers.csv",
@@ -315,13 +310,13 @@
     },
     {
       "file": "F03-4_markers.vtp",
-      "sha256": "021d190dfc96238be85e6130a07cad0b698129757c4b712fe6c3eeec99be912d",
-      "bytes": 12342
+      "sha256": "d6b7c52377bfe11e91ffe73188125696ce5a62159519329b6ac01dbf980ccefc",
+      "bytes": 12130
     },
     {
       "file": "F03-4_pzero_well.xlsx",
-      "sha256": "ccd8cdda55099326f1c6f62ee8c2fcd828edf46fa489c84f3df4411e14dd1c3b",
-      "bytes": 598165
+      "sha256": "e87fdd60ccf8b4d0925d8def016979144a63ed4f091ea4713000c32c97516e30",
+      "bytes": 598128
     },
     {
       "file": "F03-4_trajectory.csv",
@@ -330,13 +325,13 @@
     },
     {
       "file": "F03-4_trajectory.vtp",
-      "sha256": "8d53f0980014a7de497d5f961af2cc3bd0b7ddea0e7ca581651510d08064e575",
-      "bytes": 1003896
+      "sha256": "7fa656af7025cbd85124d03703d53bfeb5004070e5f53b091df1e141a4f19bc8",
+      "bytes": 1003684
     },
     {
       "file": "F06-1_coordinate_metadata.json",
-      "sha256": "ebb416bb65c0e5450cf20fcc10b2896fa6e19ba3f7d7fd4c2eb2b1b60d2cda73",
-      "bytes": 2946
+      "sha256": "73455cbd80de8cd9509c8ed9dfd98accaaca80fb50ee57de1440e1c466a1afd2",
+      "bytes": 2876
     },
     {
       "file": "F06-1_markers.csv",
@@ -345,13 +340,13 @@
     },
     {
       "file": "F06-1_markers.vtp",
-      "sha256": "5aa01694bcd1928afa2c23d0d051b21cbef0762df615c2a5debe07d903e21091",
-      "bytes": 12039
+      "sha256": "78d1cd8e237eeb132ff5d8b9f6302f187a6623ae2ab25ebfa98bdcde73b49b64",
+      "bytes": 11827
     },
     {
       "file": "F06-1_pzero_well.xlsx",
-      "sha256": "494f902e6cbffe7a3b05ba56d812a668e91d52009c49126d73abb4288b019b49",
-      "bytes": 343438
+      "sha256": "9fbdaa97a507cc4eb261c4b9da1d940d205e6c88feb578e20720a4191970182a",
+      "bytes": 343401
     },
     {
       "file": "F06-1_trajectory.csv",
@@ -360,8 +355,8 @@
     },
     {
       "file": "F06-1_trajectory.vtp",
-      "sha256": "8aca8383edb1f7a40564fbc2bf9fb146c91b7617209375cc815b2f9c2f811e80",
-      "bytes": 730235
+      "sha256": "0064d30287f62435116fb975a37d7177b69a75303699e2bab1e838205aa07a08",
+      "bytes": 730023
     },
     {
       "file": "well_conversion_summary.csv",

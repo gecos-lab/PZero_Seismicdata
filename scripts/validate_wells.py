@@ -1,7 +1,7 @@
 """Independent numerical and file-format checks of the converted F3 wells.
 
 Uses NumPy's interpolator, rather than the converter's bisect implementation.
-Checks the exported CSV, XLSX, VTP, original-source hashes, and frame snapshot.
+Checks the exported CSV, XLSX, VTP, input hashes, and coordinate settings.
 Run: python scripts/validate_wells.py [--out-dir results/wells]
 """
 import argparse
@@ -101,7 +101,7 @@ def main():
     for result in manifest["generated_files"]:
         assert digest(output / result["file"]) == result["sha256"], result["file"]
     assert digest(ROOT.parent / "scripts" / "convert_wells.py") == manifest["converter_sha256"]
-    context = json.loads((ROOT / "project_frame" / "project_context.json").read_text())
+    context = json.loads((ROOT / "coordinate_system.json").read_text())
     assert manifest["project_frame"] == context
     metadata = context["seismic_metadata"]
     assert metadata["crs"] == "EPSG:23031" and metadata["xy_units"] == "m"

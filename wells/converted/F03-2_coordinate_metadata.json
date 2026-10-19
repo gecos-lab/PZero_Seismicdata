@@ -69,7 +69,6 @@
     "z_positive": "up",
     "well_conversion": {
       "well": "F03-2",
-      "target_project_revision": "rev_2026-09-22-10-42-08-b52783e8",
       "target_seismic_uid": "1713b3c0-e158-4bc6-8f4c-3473bb0ea683",
       "input_md_units": "m",
       "source_time_units": "s",

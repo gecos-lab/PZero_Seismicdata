@@ -2,8 +2,7 @@
 
 XY: EPSG:23031, metres. Z: negative two-way travel time, milliseconds.
 Run from the repository root: python scripts/convert_wells.py
-Bundled inputs and a documented coordinate-frame snapshot are the defaults.
-Numerical interpolation and sampling follow the original validated converter.
+Bundled well inputs and coordinate settings are the defaults.
 """
 import argparse
 from bisect import bisect_right
@@ -120,10 +119,8 @@ def project_frame(project):
     if len(candidates) != 1:
         raise ValueError("Expected one saved seismic metadata sidecar")
     record, payload, sidecar = candidates[0]
-    return {"project_file": str(Path(project).resolve()), "revision": revision,
-            "seismic_uid": record["uid"], "seismic_name": record["name"],
-            "seismic_metadata": payload["seismic_metadata"],
-            "pointer_sha256": sha256(project), "sidecar_sha256": sha256(sidecar)}
+    return {"seismic_uid": record["uid"], "seismic_name": record["name"],
+            "seismic_metadata": payload["seismic_metadata"]}
 
 
 def validate_frame(frame, survey_path):
@@ -315,7 +312,7 @@ def convert_well(well, source, output, frame, spacing):
         marker_rows.append({**row, **marker, "trace_index": index})
     metadata = dict(frame["seismic_metadata"])
     metadata["well_conversion"] = {
-        "well": well, "target_project_revision": frame["revision"],
+        "well": well,
         "target_seismic_uid": frame["seismic_uid"],
         "input_md_units": "m", "source_time_units": "s", "output_time_units": "ms",
         "source_crs": "EPSG:23031", "target_crs": "EPSG:23031",
@@ -379,15 +376,12 @@ def main(argv=None):
     output = args.out_dir.resolve()
     if output == source or source in output.parents:
         raise ValueError("Output must be outside the original source folder")
-    frame_dir = PACKAGE / "project_frame"
-    frame_dir.mkdir(exist_ok=True)
-    context_path = frame_dir / "project_context.json"
+    context_path = PACKAGE / "coordinate_system.json"
     if args.project:
         frame = project_frame(args.project)
         if context_path.exists() and json.loads(context_path.read_text()) != frame:
-            raise ValueError("Project frame changed; use a new evidence-package folder")
+            raise ValueError("Project frame differs from the bundled well coordinate settings")
         context_path.write_text(json.dumps(frame, indent=2), encoding="utf-8")
-        shutil.copyfile(args.project, frame_dir / "project_pointer_snapshot.p0")
     else:
         frame = json.loads(context_path.read_text(encoding="utf-8"))
     validate_frame(frame, source / ".survey")
@@ -431,7 +425,7 @@ def main(argv=None):
                 "extrapolation": "none; trajectory limited to shared track/model MD coverage",
                 "sampling": "union of model knots, track knots, marker MDs, endpoints, regular MD stations",
                 "scope": "well trajectories and stratigraphic markers; original geophysical log curves are not exported",
-                "project_revision_modified": False, "summary": summary, "generated_files": generated}
+                "summary": summary, "generated_files": generated}
     (output / "conversion_manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
     print(f"Saved {len(summary)} wells and {len(all_markers)} markers to {output}", flush=True)
 
