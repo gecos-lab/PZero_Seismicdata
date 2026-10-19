@@ -46,6 +46,10 @@ interpretation and mesh generation remain PZero/PyMeshIt workflows.
 ## Seismic volume
 
 The [main README](../README.md#open-the-project) contains the Google Drive
-download link and the command to load seismic into a working project copy.
+download link. With `final9.p0` open, use **File → Import SEGY**, select the
+downloaded file, and choose the existing horizon/fault group in the
+**Link interpreted entities** dialog. PZero links the interpretations to the
+imported seismic. Save the project to retain these links.
+
 The exact SEG-Y filename, size, SHA-256 and detected trace headers are recorded
 in [`metadata/external_data.json`](../metadata/external_data.json).

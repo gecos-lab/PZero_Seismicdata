@@ -19,9 +19,10 @@ The full volume is `TetraMesh_PyMeshIt`; seven separate material meshes are
 also included. Map UUID files to readable names using the
 [entity catalogue](../metadata/entity_catalog.csv).
 
-The saved image collection is empty. The [main README](../README.md#open-the-project)
-provides the Google Drive seismic link and a command to load it in a working
-copy with its original UID. Do not rescale the saved interpretations.
+The saved image collection is empty. Download the seismic using the link in
+the [main README](../README.md#open-the-project), import it through
+**File → Import SEGY**, and select the existing horizon/fault group in the
+**Link interpreted entities** dialog. Save the project to retain the links.
 
 Embedded VTK provenance may contain historical local source paths. These are
 retained evidence in the byte-identical project, not required locations on a

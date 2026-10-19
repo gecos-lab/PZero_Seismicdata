@@ -18,8 +18,8 @@
     },
     {
       "path": "docs/reproducibility.md",
-      "bytes": 1943,
-      "sha256": "e2b5369c4c0009616bc10d4ee8f3c0b572b29a0ae7124359f794d3d4c474415e"
+      "bytes": 2151,
+      "sha256": "0045036c651a71c0aa33adcff3ef43ef9b2960f9c06a6ac8a444b351bed0bba4"
     },
     {
       "path": "final9/final9.p0",
@@ -1128,8 +1128,8 @@
     },
     {
       "path": "final9/README.md",
-      "bytes": 1223,
-      "sha256": "be354cab22a55dfc670570e5c7be68630aefe76de68855542e894519f7b2c8fd"
+      "bytes": 1287,
+      "sha256": "5d4d2360176a1a8d06f2c51557d3cc6559c99d90af59eed0a8501891f7b73038"
     },
     {
       "path": "LICENSE",
@@ -1158,18 +1158,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3034,
-      "sha256": "6ff23926af993985887f4aff819ec16e1340c2d9e48875b1a3b186af6f3ebeb1"
+      "bytes": 3043,
+      "sha256": "9544578af7eb0b80efb31a3366c6f89242248b23b35d9965c80307aae6109d44"
     },
     {
       "path": "requirements.txt",
       "bytes": 99,
       "sha256": "61916887ee787df4d2634fb76dcf2821e2fcc7fd6f71d3a96c8409da7ddaa55b"
-    },
-    {
-      "path": "scripts/attach_seismic.py",
-      "bytes": 3323,
-      "sha256": "18085fa2f89714b36014b053da9515bac71914747126c90295cce683e45ecd39"
     },
     {
       "path": "scripts/convert_wells.py",

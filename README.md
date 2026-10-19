@@ -13,17 +13,14 @@ seismic volume.
 
 **F3 seismic (SEG-Y): [Download from Google Drive](https://drive.google.com/drive/folders/0B7brcf-eGK8CbGhBdmZoUnhiTWs?resourcekey=0-0ZhV_OJ3TKN1ShFAGcrOzQ).**
 
-The file used by this project is
-`Dutch Government_F3_entire_8bit seismic.segy`. To display it with the model,
-run the following after installing the dependencies below:
+To display the seismic with the model:
 
-```bash
-python scripts/attach_seismic.py --segy "/path/to/Dutch Government_F3_entire_8bit seismic.segy"
-```
-
-Open the resulting `results/final9_with_seismic/final9.p0` in PZero. The helper
-checks the seismic file and restores its original project association in a
-working copy, preserving the model coordinates.
+1. Download `Dutch Government_F3_entire_8bit seismic.segy` using the link above.
+2. With `final9.p0` open in PZero, choose **File → Import SEGY** and select the file.
+3. After import, the **Link interpreted entities** dialog appears. Select the
+   existing horizon/fault interpretation group and confirm. PZero links those
+   interpretations to the newly imported seismic automatically.
+4. Save the project to retain the seismic and its interpretation links.
 
 ## Contents
 
@@ -32,7 +29,7 @@ working copy, preserving the model coordinates.
 | [`final9/`](final9/) | Complete saved PZero project, interpretations and meshes |
 | [`wells/source_inputs/`](wells/source_inputs/) | Original survey declaration, well tracks, depth-time models and markers |
 | [`wells/converted/`](wells/converted/) | Import-ready workbooks, CSV/VTK exports and validation results |
-| [`scripts/`](scripts/) | Well conversion, validation and seismic loading |
+| [`scripts/`](scripts/) | Well conversion and dataset validation |
 | [`metadata/`](metadata/) | Checksums, entity catalogue, dataset summary and provenance |
 | [`docs/`](docs/) | Coordinate definitions and reproduction instructions |
 
