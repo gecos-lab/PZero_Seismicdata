@@ -12,6 +12,5 @@ results/
 *.sgy
 *.segy
 *.vts
-*.pmit
 *.tmp
 *.log

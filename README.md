@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/942090951.svg)](https://doi.org/10.5281/zenodo.21792099)
 
 
-PZero project files and well-conversion scripts for the F3 North Sea dataset.
+PZero and PyMeshIt project files and well-conversion scripts for the F3 North Sea dataset.
 The final9 project includes geological interpretations, surfaces, four wells
 with 72 markers, and tetrahedral meshes.
 
@@ -17,6 +17,11 @@ Open [`final9/final9.p0`](final9/final9.p0) in
 2. With the project open, use **File > Import SEGY** and select the file.
 3. In **Link interpreted entities**, select the existing horizon/fault group
    and confirm. Save the project to retain the links.
+
+## PyMeshIt project
+
+Open [`PyMeshIt project/seis2_aligned.pmit`](PyMeshIt%20project/seis2_aligned.pmit)
+in PyMeshIt.
 
 ## Wells
 
