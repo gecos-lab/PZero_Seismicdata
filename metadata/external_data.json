@@ -1,0 +1,29 @@
+{
+  "f3_seismic": {
+    "filename": "Dutch Government_F3_entire_8bit seismic.segy",
+    "bytes": 1292686488,
+    "sha256": "b36494f4e9bed7216228124f43ff8901168bff8bebd4e4c4dabb80a68d568dab",
+    "download_collection": "https://drive.google.com/drive/folders/0B7brcf-eGK8CbGhBdmZoUnhiTWs?resourcekey=0-0ZhV_OJ3TKN1ShFAGcrOzQ",
+    "dataset_description": "https://terranubis.com/datainfo/F3-Demo-2023",
+    "licence": "CC-BY-SA-3.0",
+    "bundled": false,
+    "original_seismic_uid": "1713b3c0-e158-4bc6-8f4c-3473bb0ea683",
+    "dimensions": [
+      651,
+      951,
+      462
+    ],
+    "sample_origin_ms": 4.0,
+    "sample_interval_ms": 4.0,
+    "z_bounds_ms": [
+      -1848,
+      -4
+    ],
+    "detected_headers": {
+      "inline": 5,
+      "crossline": 21,
+      "x": 73,
+      "y": 77
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Local environments and generated results
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+results/
+
+# Download seismic separately; keep raw volumes and application caches out.
+*.sgy
+*.segy
+*.vts
+*.pmit
+*.tmp
+*.log

@@ -1,0 +1,76 @@
+{
+  "project_file": "final7.p0",
+  "revision": "rev_2026-09-22-10-42-08-b52783e8",
+  "seismic_uid": "1713b3c0-e158-4bc6-8f4c-3473bb0ea683",
+  "seismic_name": "Dutch Government_F3_entire_8bit seismic",
+  "seismic_metadata": {
+    "coordinate_scalar_applied": true,
+    "crs": "EPSG:23031",
+    "depth_model": "none",
+    "detected_headers": {
+      "crossline": 21,
+      "inline": 5,
+      "x": 73,
+      "y": 77
+    },
+    "detection_evidence": "textual-header declarations",
+    "geometry_status": "Affine navigation fit; original measured XY retained in field data",
+    "header_widths": {
+      "crossline": 4,
+      "inline": 4,
+      "x": 4,
+      "y": 4
+    },
+    "import_options": {
+      "depth_datum_m": 0.0,
+      "depth_model": "none",
+      "domain": "twt",
+      "endian": "auto",
+      "file_crs": "EPSG:23031",
+      "header_widths": null,
+      "headers": null,
+      "model_time_datum_s": 0.0,
+      "name": "Dutch Government_F3_entire_8bit seismic",
+      "negate_z": true,
+      "sample_origin": null,
+      "sample_step": null,
+      "target_crs": "",
+      "time_depth_table": [],
+      "velocity_m_s": 0.0,
+      "vertical_datum": "Unspecified",
+      "vertical_units": "ms",
+      "xy_units": "header"
+    },
+    "max_grid_residual_m": 0.006643536871382147,
+    "missing_bins": 0,
+    "recovered_coordinates": 0,
+    "repairs": [],
+    "sample_input_units": "ms",
+    "sample_origin": 4.0,
+    "sample_step": 4.0,
+    "schema_version": 1,
+    "source_file": "Dutch Government_F3_entire_8bit seismic.segy",
+    "source_hints": {
+      "data_kind": "amplitude",
+      "domain": "twt",
+      "file_crs": "EPSG:23031",
+      "notes": [
+        "Time-domain data indicated by the header; review TWT versus OWT."
+      ],
+      "vertical_units": "ms",
+      "xy_units": "m"
+    },
+    "source_identity": {
+      "mtime_ns": 1763474286892816500,
+      "size": 1292686488
+    },
+    "standardized": true,
+    "vertical_datum": "Unspecified",
+    "vertical_domain": "twt",
+    "vertical_units": "ms",
+    "xy_units": "m",
+    "z_positive": "up"
+  },
+  "pointer_sha256": "8a8d894b2ea954c58e20be9970655ca53f6d4ee92f5a78dbc258124c7c54322e",
+  "sidecar_sha256": "bc4682d4f538dd7e1cd31bb0d6bb915a2d89c1d78e9cb74ba78a253a4c652705"
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "original_path": "F3_Demo_2023/.survey",
+    "snapshot": "source_inputs/.survey",
+    "sha256": "1fb1a176a33e078b1d00e1e5075327db9e4c5c5df86e1c0d19a859a21b5d9fca",
+    "bytes": 779
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F02-1.well",
+    "snapshot": "source_inputs/WellInfo/F02-1.well",
+    "sha256": "593dfdbab298c63b2521eac2e2c9a131700c0ea0e95ff6b73b07fb0555d47d4a",
+    "bytes": 218
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F02-1.wlt",
+    "snapshot": "source_inputs/WellInfo/F02-1.wlt",
+    "sha256": "4f6f616cc4720c5a301b0fe4c614c4793f14edfc1d113f4f8b0a9f21e6ce95f6",
+    "bytes": 119889
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F02-1.wlm",
+    "snapshot": "source_inputs/WellInfo/F02-1.wlm",
+    "sha256": "5a77efd2ddbb51bbf2e46513ea3d750e68092f96b861871c30b336002f0e5f58",
+    "bytes": 1579
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F03-2.well",
+    "snapshot": "source_inputs/WellInfo/F03-2.well",
+    "sha256": "b54f6291b1bfa13d53e0d4eab305674a70ed40010e03797259edf7ed4f7163bf",
+    "bytes": 218
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F03-2.wlt",
+    "snapshot": "source_inputs/WellInfo/F03-2.wlt",
+    "sha256": "8e1887932a6547eea1340da9dd61b6ea01dc30eaf26dbf54f79a185a0605444e",
+    "bytes": 190350
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F03-2.wlm",
+    "snapshot": "source_inputs/WellInfo/F03-2.wlm",
+    "sha256": "97aefcc9f4b96d271d7c939848a6d6c01f92f3e738a42b18212103f1a6a79cf7",
+    "bytes": 1558
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F03-4.well",
+    "snapshot": "source_inputs/WellInfo/F03-4.well",
+    "sha256": "179663f06d0570dc4ce3309c0ff761eee30d20a56cf28501ba1fcc2976d2f44c",
+    "bytes": 831
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F03-4.wlt",
+    "snapshot": "source_inputs/WellInfo/F03-4.wlt",
+    "sha256": "c022bd26fd36855d16ecb845b485b5714d0c0fae09cabbbfc1bb0cebfeb39a8b",
+    "bytes": 127798
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F03-4.wlm",
+    "snapshot": "source_inputs/WellInfo/F03-4.wlm",
+    "sha256": "d5371ad58a296c61278c2f163020aebfeec25ad84afab44c44bcabe694f5da97",
+    "bytes": 1535
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F06-1.well",
+    "snapshot": "source_inputs/WellInfo/F06-1.well",
+    "sha256": "57bc8e0150abe2ce64d2829146829ff513bb5e3ce4b388229ab5314ca3dfccb2",
+    "bytes": 236
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F06-1.wlt",
+    "snapshot": "source_inputs/WellInfo/F06-1.wlt",
+    "sha256": "2726f46a75ea8141275e130fc7a29b37d1badd9ae7e3bce89c42ae06670bb274",
+    "bytes": 115612
+  },
+  {
+    "original_path": "F3_Demo_2023/WellInfo/F06-1.wlm",
+    "snapshot": "source_inputs/WellInfo/F06-1.wlm",
+    "sha256": "eccc1a61e5c6c1ecc84802b86c1cf67dcca81592eb0d5e9ab77757d6aae90b66",
+    "bytes": 1579
+  }
+]

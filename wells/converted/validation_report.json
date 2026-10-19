@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "validator_sha256": "b7682854ea085300d73aff2b590daa19cb3557f56b4b3d8ec25974018003d4b9",
+  "numpy_version": "2.2.5",
+  "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "vtk_version": "9.3.1",
+  "source_and_output_hashes": "passed",
+  "project_frame": "passed",
+  "method": "Independent numpy.interp verification of all output trajectory and marker coordinates",
+  "total_wells": 4,
+  "total_markers": 72,
+  "wells": [
+    {
+      "well": "F02-1",
+      "trajectory_points": 6172,
+      "markers": 18,
+      "max_model_interpolation_error_ms": 1.1368683772161603e-13,
+      "max_xy_error_m": 0.0,
+      "max_vtp_coordinate_error": 1.1368683772161603e-13,
+      "max_xlsx_coordinate_error": 1.1368683772161603e-13,
+      "max_imported_marker_coordinate_error": 0.0,
+      "extrapolated_points": 0,
+      "status": "passed"
+    },
+    {
+      "well": "F03-2",
+      "trajectory_points": 12271,
+      "markers": 18,
+      "max_model_interpolation_error_ms": 5.684341886080802e-14,
+      "max_xy_error_m": 0.0,
+      "max_vtp_coordinate_error": 5.684341886080802e-14,
+      "max_xlsx_coordinate_error": 1.1368683772161603e-13,
+      "max_imported_marker_coordinate_error": 0.0,
+      "extrapolated_points": 0,
+      "status": "passed"
+    },
+    {
+      "well": "F03-4",
+      "trajectory_points": 8255,
+      "markers": 18,
+      "max_model_interpolation_error_ms": 1.1368683772161603e-13,
+      "max_xy_error_m": 9.313225746154785e-10,
+      "max_vtp_coordinate_error": 9.313225746154785e-10,
+      "max_xlsx_coordinate_error": 9.313225746154785e-10,
+      "max_imported_marker_coordinate_error": 1.1368683772161603e-13,
+      "extrapolated_points": 0,
+      "status": "passed"
+    },
+    {
+      "well": "F06-1",
+      "trajectory_points": 7258,
+      "markers": 18,
+      "max_model_interpolation_error_ms": 2.2737367544323206e-13,
+      "max_xy_error_m": 0.0,
+      "max_vtp_coordinate_error": 2.2737367544323206e-13,
+      "max_xlsx_coordinate_error": 2.2737367544323206e-13,
+      "max_imported_marker_coordinate_error": 6.661338147750939e-16,
+      "extrapolated_points": 0,
+      "status": "passed"
+    }
+  ]
+}

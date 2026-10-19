@@ -1,0 +1,89 @@
+{
+  "well": "F02-1",
+  "seismic_frame": {
+    "coordinate_scalar_applied": true,
+    "crs": "EPSG:23031",
+    "depth_model": "none",
+    "detected_headers": {
+      "crossline": 21,
+      "inline": 5,
+      "x": 73,
+      "y": 77
+    },
+    "detection_evidence": "textual-header declarations",
+    "geometry_status": "Affine navigation fit; original measured XY retained in field data",
+    "header_widths": {
+      "crossline": 4,
+      "inline": 4,
+      "x": 4,
+      "y": 4
+    },
+    "import_options": {
+      "depth_datum_m": 0.0,
+      "depth_model": "none",
+      "domain": "twt",
+      "endian": "auto",
+      "file_crs": "EPSG:23031",
+      "header_widths": null,
+      "headers": null,
+      "model_time_datum_s": 0.0,
+      "name": "Dutch Government_F3_entire_8bit seismic",
+      "negate_z": true,
+      "sample_origin": null,
+      "sample_step": null,
+      "target_crs": "",
+      "time_depth_table": [],
+      "velocity_m_s": 0.0,
+      "vertical_datum": "Unspecified",
+      "vertical_units": "ms",
+      "xy_units": "header"
+    },
+    "max_grid_residual_m": 0.006643536871382147,
+    "missing_bins": 0,
+    "recovered_coordinates": 0,
+    "repairs": [],
+    "sample_input_units": "ms",
+    "sample_origin": 4.0,
+    "sample_step": 4.0,
+    "schema_version": 1,
+    "source_file": "Dutch Government_F3_entire_8bit seismic.segy",
+    "source_hints": {
+      "data_kind": "amplitude",
+      "domain": "twt",
+      "file_crs": "EPSG:23031",
+      "notes": [
+        "Time-domain data indicated by the header; review TWT versus OWT."
+      ],
+      "vertical_units": "ms",
+      "xy_units": "m"
+    },
+    "source_identity": {
+      "mtime_ns": 1763474286892816500,
+      "size": 1292686488
+    },
+    "standardized": true,
+    "vertical_datum": "Unspecified",
+    "vertical_domain": "twt",
+    "vertical_units": "ms",
+    "xy_units": "m",
+    "z_positive": "up",
+    "well_conversion": {
+      "well": "F02-1",
+      "target_project_revision": "rev_2026-09-22-10-42-08-b52783e8",
+      "target_seismic_uid": "1713b3c0-e158-4bc6-8f4c-3473bb0ea683",
+      "input_md_units": "m",
+      "source_time_units": "s",
+      "output_time_units": "ms",
+      "source_crs": "EPSG:23031",
+      "target_crs": "EPSG:23031",
+      "xy_transform": "identity",
+      "z_recipe": "z_twt_ms = -1000 * interpolate(original_md_m, source_wlt)",
+      "source_model": "F02-1.wlt",
+      "interpolation": "piecewise linear",
+      "extrapolation": "forbidden",
+      "original_time_datum": "retained",
+      "trace_parameter_units": "mixed-coordinate path distance; not measured depth"
+    }
+  },
+  "workbook_note": "ELEV/DZ describe signed time coordinates in ms, not elevation/depth in metres. The sheet MD and GEOLOGY START/STOP are the importer's mixed-coordinate path parameter, not physical measured depth; use ORIGINAL_MD_m for the original measured depth."
+}

@@ -1,0 +1,5 @@
+well,trajectory_points,markers,source_track_last_md_m,model_last_md_m,converted_last_md_m,unconverted_track_length_md_m,min_twt_ms,max_twt_ms,min_z_ms,max_z_ms,points_outside_seismic_4_to_1848_ms,source_equal_time_intervals,zero_length_time_frame_segments,vtp_coordinate_roundtrip_error
+F02-1,6172,18,1695.0,1424.09997559,1424.09997559,270.90002441,-30.0,1382.86722,-1382.86722,30.0,7,2,2,0.0
+F03-2,12271,18,2140.0,2139.6,2139.6,0.40000000000009095,-30.0,1841.51,-1841.51,30.0,7,0,0,0.0
+F03-4,8255,18,2048.0,1858.2,1858.2,189.79999999999995,-34.1,1812.268,-1812.268,34.1,9,0,0,0.0
+F06-1,7258,18,1701.0,1699.99,1699.99,1.009999999999991,-28.64,1625.395,-1625.395,28.64,8,0,0,0.0

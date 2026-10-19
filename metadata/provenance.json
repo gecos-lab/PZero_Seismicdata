@@ -1,0 +1,36 @@
+{
+  "prepared_date": "2026-10-19",
+  "project": {
+    "source_name": "final9.p0",
+    "source_revision": "rev_2026-10-19-11-34-25-e2409f9b",
+    "pointer_sha256": "89df824efb7e4afcec172cd37e5f90a4f7aeb4f3e39909d296b66e2cbc0161e2",
+    "copy_method": "pointer and all 220 selected-revision files copied byte-for-byte; no model edits"
+  },
+  "well_inputs": {
+    "source_package": "final7_p0/well_conversion_evidence",
+    "scope": "survey declaration; .well, .wlt and .wlm for four wells",
+    "source_files_unchanged": true,
+    "original_converter_sha256": "3f2a7fd09596f52a3dc6219b49b9322caf0167c697efbb4c6895dcb324fed469",
+    "original_validator_sha256": "2af79e124fe3b8f035b1d11b525a0d844bcfbb35ff08525068f39505b50cc731",
+    "adaptations": [
+      "Repository-relative defaults; original-path fields normalized to source-relative names",
+      "Workbook suffix _pzero_well.xlsx",
+      "Default reproduction outputs under results/wells",
+      "Numerical conversion and independent validation methods retained"
+    ],
+    "frame_snapshot_origin": "final7.p0; rev_2026-09-22-10-42-08-b52783e8",
+    "frame_consistency_check": "saved final9 well/marker coordinates are checked against converted reference outputs"
+  },
+  "pzero_checkout_at_packaging": {
+    "repository": "https://github.com/gecos-lab/PZero",
+    "branch": "Seismic_PSC_PymeshIt",
+    "revision": "54bf4f3da2e3191242eb9b89bd153f3b0c087cef",
+    "working_tree_has_uncommitted_changes": true,
+    "note": "Local checkout recorded when the dataset was assembled; saved interpretations may originate from earlier versions."
+  },
+  "validation_environment": {
+    "python": "3.11.9",
+    "numpy": "2.2.5",
+    "vtk": "9.3.1"
+  }
+}

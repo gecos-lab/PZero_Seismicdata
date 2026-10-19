@@ -1,0 +1,372 @@
+{
+  "generated_utc": "2026-10-19T10:20:32.655886+00:00",
+  "converter_sha256": "31a353769a926738f8c3cceefa6f8268617eda8c07cc3990aaf0d5e34d3c76db",
+  "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "vtk_version": "9.3.1",
+  "project_frame": {
+    "project_file": "final7.p0",
+    "revision": "rev_2026-09-22-10-42-08-b52783e8",
+    "seismic_uid": "1713b3c0-e158-4bc6-8f4c-3473bb0ea683",
+    "seismic_name": "Dutch Government_F3_entire_8bit seismic",
+    "seismic_metadata": {
+      "coordinate_scalar_applied": true,
+      "crs": "EPSG:23031",
+      "depth_model": "none",
+      "detected_headers": {
+        "crossline": 21,
+        "inline": 5,
+        "x": 73,
+        "y": 77
+      },
+      "detection_evidence": "textual-header declarations",
+      "geometry_status": "Affine navigation fit; original measured XY retained in field data",
+      "header_widths": {
+        "crossline": 4,
+        "inline": 4,
+        "x": 4,
+        "y": 4
+      },
+      "import_options": {
+        "depth_datum_m": 0.0,
+        "depth_model": "none",
+        "domain": "twt",
+        "endian": "auto",
+        "file_crs": "EPSG:23031",
+        "header_widths": null,
+        "headers": null,
+        "model_time_datum_s": 0.0,
+        "name": "Dutch Government_F3_entire_8bit seismic",
+        "negate_z": true,
+        "sample_origin": null,
+        "sample_step": null,
+        "target_crs": "",
+        "time_depth_table": [],
+        "velocity_m_s": 0.0,
+        "vertical_datum": "Unspecified",
+        "vertical_units": "ms",
+        "xy_units": "header"
+      },
+      "max_grid_residual_m": 0.006643536871382147,
+      "missing_bins": 0,
+      "recovered_coordinates": 0,
+      "repairs": [],
+      "sample_input_units": "ms",
+      "sample_origin": 4.0,
+      "sample_step": 4.0,
+      "schema_version": 1,
+      "source_file": "Dutch Government_F3_entire_8bit seismic.segy",
+      "source_hints": {
+        "data_kind": "amplitude",
+        "domain": "twt",
+        "file_crs": "EPSG:23031",
+        "notes": [
+          "Time-domain data indicated by the header; review TWT versus OWT."
+        ],
+        "vertical_units": "ms",
+        "xy_units": "m"
+      },
+      "source_identity": {
+        "mtime_ns": 1763474286892816500,
+        "size": 1292686488
+      },
+      "standardized": true,
+      "vertical_datum": "Unspecified",
+      "vertical_domain": "twt",
+      "vertical_units": "ms",
+      "xy_units": "m",
+      "z_positive": "up"
+    },
+    "pointer_sha256": "8a8d894b2ea954c58e20be9970655ca53f6d4ee92f5a78dbc258124c7c54322e",
+    "sidecar_sha256": "bc4682d4f538dd7e1cd31bb0d6bb915a2d89c1d78e9cb74ba78a253a4c652705"
+  },
+  "source_files": [
+    {
+      "original_path": "F3_Demo_2023/.survey",
+      "snapshot": "source_inputs/.survey",
+      "sha256": "1fb1a176a33e078b1d00e1e5075327db9e4c5c5df86e1c0d19a859a21b5d9fca",
+      "bytes": 779
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F02-1.well",
+      "snapshot": "source_inputs/WellInfo/F02-1.well",
+      "sha256": "593dfdbab298c63b2521eac2e2c9a131700c0ea0e95ff6b73b07fb0555d47d4a",
+      "bytes": 218
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F02-1.wlt",
+      "snapshot": "source_inputs/WellInfo/F02-1.wlt",
+      "sha256": "4f6f616cc4720c5a301b0fe4c614c4793f14edfc1d113f4f8b0a9f21e6ce95f6",
+      "bytes": 119889
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F02-1.wlm",
+      "snapshot": "source_inputs/WellInfo/F02-1.wlm",
+      "sha256": "5a77efd2ddbb51bbf2e46513ea3d750e68092f96b861871c30b336002f0e5f58",
+      "bytes": 1579
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F03-2.well",
+      "snapshot": "source_inputs/WellInfo/F03-2.well",
+      "sha256": "b54f6291b1bfa13d53e0d4eab305674a70ed40010e03797259edf7ed4f7163bf",
+      "bytes": 218
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F03-2.wlt",
+      "snapshot": "source_inputs/WellInfo/F03-2.wlt",
+      "sha256": "8e1887932a6547eea1340da9dd61b6ea01dc30eaf26dbf54f79a185a0605444e",
+      "bytes": 190350
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F03-2.wlm",
+      "snapshot": "source_inputs/WellInfo/F03-2.wlm",
+      "sha256": "97aefcc9f4b96d271d7c939848a6d6c01f92f3e738a42b18212103f1a6a79cf7",
+      "bytes": 1558
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F03-4.well",
+      "snapshot": "source_inputs/WellInfo/F03-4.well",
+      "sha256": "179663f06d0570dc4ce3309c0ff761eee30d20a56cf28501ba1fcc2976d2f44c",
+      "bytes": 831
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F03-4.wlt",
+      "snapshot": "source_inputs/WellInfo/F03-4.wlt",
+      "sha256": "c022bd26fd36855d16ecb845b485b5714d0c0fae09cabbbfc1bb0cebfeb39a8b",
+      "bytes": 127798
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F03-4.wlm",
+      "snapshot": "source_inputs/WellInfo/F03-4.wlm",
+      "sha256": "d5371ad58a296c61278c2f163020aebfeec25ad84afab44c44bcabe694f5da97",
+      "bytes": 1535
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F06-1.well",
+      "snapshot": "source_inputs/WellInfo/F06-1.well",
+      "sha256": "57bc8e0150abe2ce64d2829146829ff513bb5e3ce4b388229ab5314ca3dfccb2",
+      "bytes": 236
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F06-1.wlt",
+      "snapshot": "source_inputs/WellInfo/F06-1.wlt",
+      "sha256": "2726f46a75ea8141275e130fc7a29b37d1badd9ae7e3bce89c42ae06670bb274",
+      "bytes": 115612
+    },
+    {
+      "original_path": "F3_Demo_2023/WellInfo/F06-1.wlm",
+      "snapshot": "source_inputs/WellInfo/F06-1.wlm",
+      "sha256": "eccc1a61e5c6c1ecc84802b86c1cf67dcca81592eb0d5e9ab77757d6aae90b66",
+      "bytes": 1579
+    }
+  ],
+  "spacing_md_m": 5,
+  "xy_recipe": "identity: EPSG:23031 metres",
+  "z_recipe": "-1000 * well_specific_wlt_TWT_seconds",
+  "datum": "original well model time datum retained; no added 4 ms sample-origin offset",
+  "extrapolation": "none; trajectory limited to shared track/model MD coverage",
+  "sampling": "union of model knots, track knots, marker MDs, endpoints, regular MD stations",
+  "scope": "well trajectories and stratigraphic markers; original geophysical log curves are not exported",
+  "project_revision_modified": false,
+  "summary": [
+    {
+      "well": "F02-1",
+      "trajectory_points": 6172,
+      "markers": 18,
+      "source_track_last_md_m": 1695.0,
+      "model_last_md_m": 1424.09997559,
+      "converted_last_md_m": 1424.09997559,
+      "unconverted_track_length_md_m": 270.90002441,
+      "min_twt_ms": -30.0,
+      "max_twt_ms": 1382.86722,
+      "min_z_ms": -1382.86722,
+      "max_z_ms": 30.0,
+      "points_outside_seismic_4_to_1848_ms": 7,
+      "source_equal_time_intervals": 2,
+      "zero_length_time_frame_segments": 2,
+      "vtp_coordinate_roundtrip_error": 0.0
+    },
+    {
+      "well": "F03-2",
+      "trajectory_points": 12271,
+      "markers": 18,
+      "source_track_last_md_m": 2140.0,
+      "model_last_md_m": 2139.6,
+      "converted_last_md_m": 2139.6,
+      "unconverted_track_length_md_m": 0.40000000000009095,
+      "min_twt_ms": -30.0,
+      "max_twt_ms": 1841.51,
+      "min_z_ms": -1841.51,
+      "max_z_ms": 30.0,
+      "points_outside_seismic_4_to_1848_ms": 7,
+      "source_equal_time_intervals": 0,
+      "zero_length_time_frame_segments": 0,
+      "vtp_coordinate_roundtrip_error": 0.0
+    },
+    {
+      "well": "F03-4",
+      "trajectory_points": 8255,
+      "markers": 18,
+      "source_track_last_md_m": 2048.0,
+      "model_last_md_m": 1858.2,
+      "converted_last_md_m": 1858.2,
+      "unconverted_track_length_md_m": 189.79999999999995,
+      "min_twt_ms": -34.1,
+      "max_twt_ms": 1812.268,
+      "min_z_ms": -1812.268,
+      "max_z_ms": 34.1,
+      "points_outside_seismic_4_to_1848_ms": 9,
+      "source_equal_time_intervals": 0,
+      "zero_length_time_frame_segments": 0,
+      "vtp_coordinate_roundtrip_error": 0.0
+    },
+    {
+      "well": "F06-1",
+      "trajectory_points": 7258,
+      "markers": 18,
+      "source_track_last_md_m": 1701.0,
+      "model_last_md_m": 1699.99,
+      "converted_last_md_m": 1699.99,
+      "unconverted_track_length_md_m": 1.009999999999991,
+      "min_twt_ms": -28.64,
+      "max_twt_ms": 1625.395,
+      "min_z_ms": -1625.395,
+      "max_z_ms": 28.64,
+      "points_outside_seismic_4_to_1848_ms": 8,
+      "source_equal_time_intervals": 0,
+      "zero_length_time_frame_segments": 0,
+      "vtp_coordinate_roundtrip_error": 0.0
+    }
+  ],
+  "generated_files": [
+    {
+      "file": "all_well_markers.csv",
+      "sha256": "4d8f9e1634411b951d71a8df2b403587b9088a4240da173316b7fe3764904f46",
+      "bytes": 9169
+    },
+    {
+      "file": "F02-1_coordinate_metadata.json",
+      "sha256": "ab22b8d56041e0fd42678fa213b097a6e917dbd5225678fb8abb2d3a3f565815",
+      "bytes": 2946
+    },
+    {
+      "file": "F02-1_markers.csv",
+      "sha256": "a2542dce8a7ba95b8c21cdd3e73af1004c1fd1088cdab0a1e6119a7f0766cf23",
+      "bytes": 2369
+    },
+    {
+      "file": "F02-1_markers.vtp",
+      "sha256": "07dd3efdc3a5459f72a5ef9e2cad763d642f061add98a40ff3de1c8b440eca96",
+      "bytes": 12050
+    },
+    {
+      "file": "F02-1_pzero_well.xlsx",
+      "sha256": "6bfd5bb0d244eed9b63135ca7257005d1f3e75bfee05d0066983003b25f6f9be",
+      "bytes": 270641
+    },
+    {
+      "file": "F02-1_trajectory.csv",
+      "sha256": "e1da5723efb01a872337abbb0dfc95b8620ac74bddbb84df9e55e7d8cd422554",
+      "bytes": 608110
+    },
+    {
+      "file": "F02-1_trajectory.vtp",
+      "sha256": "1ac4b3b759e938e3158568321d971b3647bfd501ce2cd151cbd614bd7b82e5c4",
+      "bytes": 591254
+    },
+    {
+      "file": "F03-2_coordinate_metadata.json",
+      "sha256": "1e77f09cf4ef5ebf51825d1c75d626eb68d94cb5abfb8a4459e6c71da9ff8a56",
+      "bytes": 2946
+    },
+    {
+      "file": "F03-2_markers.csv",
+      "sha256": "fa88d56a39ce19819eacc3b6d64dd04a5037b471f3a025400c8bdb1d4d84dcbd",
+      "bytes": 2201
+    },
+    {
+      "file": "F03-2_markers.vtp",
+      "sha256": "79b18da2a7f5360150acc50f53bc4315cf4bb5d7614f6249d1a138ffa5ef6a55",
+      "bytes": 11929
+    },
+    {
+      "file": "F03-2_pzero_well.xlsx",
+      "sha256": "71c55e01120c72b83517f46f584a3992fac32701702e72b3bfddb56fef7c65c0",
+      "bytes": 497765
+    },
+    {
+      "file": "F03-2_trajectory.csv",
+      "sha256": "5559f4660a34cfa4f0611f79b7c2e20191d00cdf0c5f34315a85fe3f45b50f6e",
+      "bytes": 1123644
+    },
+    {
+      "file": "F03-2_trajectory.vtp",
+      "sha256": "24ede612bf42faae4322b870fa33a678d2a435bfb773e50f1d7d1191cae83a66",
+      "bytes": 1109556
+    },
+    {
+      "file": "F03-4_coordinate_metadata.json",
+      "sha256": "bebbaf6a44c87e4e754583144608cd3a97d62aa9ee20bb5c306853c92ce92a13",
+      "bytes": 2946
+    },
+    {
+      "file": "F03-4_markers.csv",
+      "sha256": "7108ec9754eda5275778a0df9915eee4ca7e7caf8977238b5f0244cad5133288",
+      "bytes": 2577
+    },
+    {
+      "file": "F03-4_markers.vtp",
+      "sha256": "021d190dfc96238be85e6130a07cad0b698129757c4b712fe6c3eeec99be912d",
+      "bytes": 12342
+    },
+    {
+      "file": "F03-4_pzero_well.xlsx",
+      "sha256": "ccd8cdda55099326f1c6f62ee8c2fcd828edf46fa489c84f3df4411e14dd1c3b",
+      "bytes": 598165
+    },
+    {
+      "file": "F03-4_trajectory.csv",
+      "sha256": "598b79cdd178b9ea3f8ba279ba36e95dbbd476e9f611d33ef480327239237f6b",
+      "bytes": 978913
+    },
+    {
+      "file": "F03-4_trajectory.vtp",
+      "sha256": "8d53f0980014a7de497d5f961af2cc3bd0b7ddea0e7ca581651510d08064e575",
+      "bytes": 1003896
+    },
+    {
+      "file": "F06-1_coordinate_metadata.json",
+      "sha256": "ebb416bb65c0e5450cf20fcc10b2896fa6e19ba3f7d7fd4c2eb2b1b60d2cda73",
+      "bytes": 2946
+    },
+    {
+      "file": "F06-1_markers.csv",
+      "sha256": "df6a67855eeccfc84289a64e3111c987ef279b0bc9b24276696c1f1186563b58",
+      "bytes": 2343
+    },
+    {
+      "file": "F06-1_markers.vtp",
+      "sha256": "5aa01694bcd1928afa2c23d0d051b21cbef0762df615c2a5debe07d903e21091",
+      "bytes": 12039
+    },
+    {
+      "file": "F06-1_pzero_well.xlsx",
+      "sha256": "494f902e6cbffe7a3b05ba56d812a668e91d52009c49126d73abb4288b019b49",
+      "bytes": 343438
+    },
+    {
+      "file": "F06-1_trajectory.csv",
+      "sha256": "a971478f5b267950a10a3b3b8b57c1c6e09e7b967361c0a9474f3bbfc8fcc669",
+      "bytes": 736176
+    },
+    {
+      "file": "F06-1_trajectory.vtp",
+      "sha256": "8aca8383edb1f7a40564fbc2bf9fb146c91b7617209375cc815b2f9c2f811e80",
+      "bytes": 730235
+    },
+    {
+      "file": "well_conversion_summary.csv",
+      "sha256": "b9a0cf4b8113674943e0dea49e6082d5c0d28f8c54f46f842c5e54748093487f",
+      "bytes": 683
+    }
+  ]
+}
