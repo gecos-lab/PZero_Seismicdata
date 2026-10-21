@@ -6,6 +6,12 @@ PZero and PyMeshIt project files and well-conversion scripts for the F3 North Se
 The final9 project includes geological interpretations, surfaces, four wells
 with 72 markers, and tetrahedral meshes.
 
+## Manuscript tutorial
+
+Follow the [seven-step tutorial with screenshots](Tutorial/README.md) to open
+the manuscript projects, reconnect the F3 seismic volume, and inspect the
+interpretations, wells, reconstructed surfaces and saved tetrahedral mesh.
+
 ## Open the project
 
 Open [`final9/final9.p0`](final9/final9.p0) in
